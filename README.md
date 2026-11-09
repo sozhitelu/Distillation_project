@@ -8,6 +8,8 @@ On Cityscapes-val, distilling the teacher's outputs (forward KL, T=1, α=0.9) ra
 
 ![Cityscapes-val mIoU before and after distillation](assets/segmentation-miou.png)
 
+![Change in Cityscapes-val mIoU by distillation method, relative to the cross-entropy baseline](assets/segmentation-kd-methods.png)
+
 ![Cityscapes images, ground-truth masks, and predictions from SegFormer-B2 and SegFormer-B0](assets/segmentation-examples.png)
 
 ## Depth estimation
